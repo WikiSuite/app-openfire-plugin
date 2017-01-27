@@ -1,0 +1,3 @@
+#!/bin/sh
+
+[ -x /usr/sbin/initialize-plugins ] && /usr/sbin/initialize-plugins >/dev/null 2>&1
