@@ -1,13 +1,13 @@
 
 Name: app-openfire-plugin
 Epoch: 1
-Version: 1.1.1
+Version: 1.1.2
 Release: 1%{dist}
 Summary: Openfire Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Packager: eGloo
-Vendor: Marc Laporte
+Vendor: WikiSuite
 Source: app-openfire-plugin-%{version}.tar.gz
 Buildarch: noarch
 
@@ -56,6 +56,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/openfire_plugin/packaging
+%exclude /usr/clearos/apps/openfire_plugin/unify.json
 %dir /usr/clearos/apps/openfire_plugin
 /usr/clearos/apps/openfire_plugin/deploy
 /usr/clearos/apps/openfire_plugin/language

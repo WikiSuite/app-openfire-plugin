@@ -5,9 +5,9 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'openfire_plugin';
-$app['version'] = '1.1.1';
+$app['version'] = '1.1.2';
 $app['release'] = '1';
-$app['vendor'] = 'Marc Laporte';
+$app['vendor'] = 'WikiSuite';
 $app['packager'] = 'eGloo';
 $app['license'] = 'GPLv3';
 $app['license_core'] = 'LGPLv3';
